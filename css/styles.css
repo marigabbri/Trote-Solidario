@@ -1,0 +1,218 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0; /* espaçamento externo da página */
+    padding: 0; /* espaçamento interno da página */
+    background-color: rgb(6, 102, 102);
+    text-align: center; /* texto centralizado */
+}
+header {
+    background-color: rgb(6, 102, 102);
+    color: rgb(255, 255, 255);
+    /* 15px (espaçamento interno acima e abaixo) e 0px (direita e esquerda)*/
+    padding: 15px 0px;
+    font-size: 24px; 
+}
+nav {
+    background: rgb(39, 160, 160);
+    padding: 10px; /* espaçamento interno do menu */
+    display: flex; /* Flex Boxing */
+    justify-content: space-between; /* espaço entre os elementos do menu*/
+    align-items: center; /* alinhamento na vertical */
+
+}
+#links-menu{
+    display: flex; /*faz com que os links fiquem lado a lado*/
+    gap: 15px; /* distância entre os itens do menu*/
+ 
+}
+nav a { /* configura os links do menu */
+    color: rgb(255, 255, 255);
+    text-decoration: none; /* não decora os links */
+    padding: 10px 15px; /* (10px acima e abaixo) (15px é esquerda e direita)*/
+    font-size: 18px;
+    background:#186d8f;/*fundo do q esta em volta do link*/
+    border-radius: 5px; /* cantos arredondados */
+}
+
+img {
+    width: 120px;/*largura*/
+    height: auto;/*automatico*/
+    margin-right: 80px; /* espaçamento externo à direita */
+    border-radius: 10px;/*cantos arredondados*/
+}
+
+.container {
+    width: 70%; /* largura de 80% da largura da página */
+    background: white;
+    border-radius: 10px;
+    /* espaçamento externo 20px acima e abaixo */
+    /* espaçamento externo auto à direita e à esquerda */
+    margin: 20px auto;
+    padding: 20px; /* espaçamento interno */ 
+    text-align: justify;
+    text-align: center;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0,0.6); 
+}
+h2 {
+    text-align: center;/*coloca o texto no centro*/
+}
+
+ol li {
+    padding-bottom: 10px;
+}
+
+table tr td {
+    padding: 20px;
+}
+
+table {
+    margin: 0 auto; /* centraliza a tabela na página */
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.laranja {
+    background-color: orange;
+}
+.preta {
+    background-color: black;
+    color: white;
+}
+.roxa {
+    background-color: purple;
+}
+.verde {
+    background-color: green;
+}
+.vermelha {
+    background-color: red;
+}
+.azul {
+    background-color: navy;
+    color: white;
+}
+
+.campos {
+    margin-bottom: 20px;
+}
+.centralizado{
+    text-align: center; /* Centraliza horizontalmente */
+    font-weight: bold; /* Deixa o texto em negrito */
+    font-size: 17px; /* Tamanho opcional */
+    margin-top: 5px;/* Distância do topo (centralização vertical básica) */
+    margin-bottom: 5px;
+}
+.tabela-uniforme {
+    width: 700px;
+    margin: 20px auto;
+  
+    /* Garante que a borda funcione corretamente */
+    border-collapse: separate;
+    border-spacing: 0;
+  
+    /* Borda externa */
+    border: 1px solid #000;
+    border-radius: 12px;
+  
+    /* Para aplicar o arredondamento visualmente */
+    overflow: hidden;
+}
+  
+.tabela-uniforme th,
+.tabela-uniforme td {
+    border: 1px solid #999;
+    padding: 8px;
+    text-align: center;
+}
+  
+/* Adicionais opcionais para o cabeçalho */
+.tabela-uniforme th {
+    background-color: navy;
+    color: white;
+    font-weight: bold;
+}
+.caixa {
+    border: 2px solid gray;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    max-width: 700px;
+    margin: 20px auto;
+    text-align: left;
+}
+  
+.caixa ul {
+    margin-left: 20px;
+}
+  
+.legenda {
+    font-size: 0.85em;
+    color: #333;
+    
+}
+.observacao {
+    font-size: small;
+    margin-top: 5px;
+    text-align: center;
+}
+caption {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.tabeladividida{
+    width: 50%;
+    border-collapse: collapse;
+    text-align: center;
+    border: 2px solid black;
+}
+th, td {
+    border: 1px solid black; /* Bordas internas nas células */
+    padding: 8px; /* Espaçamento interno */
+}
+.escala-pontuacao {
+    width: 50%;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    background-color: #e9f1fa; /* azul bem clarinho */
+    font-family: Arial, sans-serif;
+    text-align: left;
+    border-radius: 10px;
+}
+  
+.escala-pontuacao th {
+    background-color: #dce6f1; /* cabeçalho um pouco mais escuro */
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #aaa;
+}
+  
+.escala-pontuacao td {
+    padding: 15px;
+    font-size: 16px;
+}
+  
+.escala-pontuacao ul {
+    margin: 0;
+    padding-left: 20px;
+}
+  
+.escala-pontuacao li {
+    margin-bottom: 8px;
+}
+.ulcentro{
+    align-items: center;
+    list-style-type: disc; /* bolinha */
+    list-style-position: inside; /* coloca o bullet alinhado com o texto */
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+.esquerda{
+    text-align: left;
+}  
+.tabelasemborda{
+    border: none;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br"> <!--Linguagem da pagina-->
+    <head>
+        <meta charset="UTF-8"><!--define o conjunto de caracteres utf-8, ele suporta
+        ele suporta acentos e simbolos de varios idiomas-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--torna o site responsivo, ou seja, adapta a telas pequenas-->
+        <title>Trote Solidário - 2025</title><!--Nome na guia-->
+        <link rel="stylesheet" href="css/styles.css"/><!--colocando o css-->
+    </head>
+    <body>
+        <header> <!-- cabeçalho do corpo da página -->
+            Trote Solidário 2025 <!--titulo no topo da pagina-->
+        </header>
+        <nav> <!-- barra de navegação (menu de opções) -->
+            <div id="links-menu"><!--agrupando os links e atribuindo um id a ele-->
+                <a href="index.html"> Home </a><!--is atribui um nome para se usar no CSS-->
+                <a href="introducao.html"> Introdução </a>
+                <a href="objetivo.html"> Objetivo </a>
+                <a href="formato.html"> Formato </a>
+                <a href="gincana.html"> Gincana </a>
+                <a href="integracao.html"> Integração </a>
+                <a href="observacoes.html"> Observações </a>
+                <a href="calculadoras.html"> Calculadoras </a>
+                <!--basicamente, href coloca o outro arquivo html q vai redirecionar, depois 
+                do <a> coloca o nome-->
+                <!--usa <a> para ir a outra pagina, site, baixa um arquivo, envia email, link interno-->
+            </div>
+            <img src="image/trote.jpg" alt="Trote Solidário"/>
+            <!--aqui vc poe uma imagem ao lado dos links, tem que colocar o caminho certo e dps
+            atribui um nome a ele com o alt=-->
+        </nav>
+        <!-- class podemos reutilizar o estilho, id não -->
+<!-- id não pode ser reutilizado pois só temos um elemento por id -->
+        <div class="container">
+            <!--IMPORTANTE: o class vc pode usar varias vezes, reutilizar etc
+            o id vc só pode usar 1 por pagina! Tem que tomar cuidado-->
+            <h2> Trote Solidário 2025 </h2> <!--titulo-->
+            <p> Construa vitórias fora de campo e jogue pela solidariedade </p> <!--paragrafo-->
+            <p> Centro Universitário Municipal de Franca</p>
+            <p> Uni-FACEF </p>
+            <p> Franca-SP </p>
+        </div>
+    </body>
+</html>
+<!--Quando usar o id?
+- Precisa identificar um único elemento
+- Vai fazer navegação interna com âncoras (href="#id")
+- Vai usar JavaScript para alterar ou interagir com o elemento
+- Precisa aplicar um estilo exclusivo
+
+Quando usar o class??
+- Vários elementos precisam do mesmo estilo
+- Quer aplicar efeitos com JavaScript
+- Está criando componentes reutilizáveis-->
