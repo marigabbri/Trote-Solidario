@@ -1,4 +1,5 @@
 🧡 Trote Solidário 2025
+
 Projeto desenvolvido para organização e registro do Trote Solidário 2025.
 O objetivo principal é criar uma página web com informações sobre doações, pontuações e instruções de participação dos times.
 
